@@ -13,12 +13,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 이종민의 업무노트
+title: 이종민의 공부노트
 
-tagline: AI, 금융, 매매 시스템
+tagline: 금융수학, 수치해석, 과학계산, C++, CUDA, Python
 
 description: >-
-  AI, 금융, 매매 시스템, 데이터 분석, 자동매매 개발 기록을 정리하는 개인 기술 블로그입니다.
+  금융수학, 수치해석, 과학계산, C++, CUDA, Python 공부 기록을 정리하는 개인 기술 블로그입니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
