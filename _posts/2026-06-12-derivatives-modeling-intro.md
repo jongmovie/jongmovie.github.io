@@ -10,13 +10,13 @@ math: true
 
 ## Black-Scholes 모델
 
-Black-Scholes 모델에서는 기초자산 가격 $$ S_t $$가 다음 확률미분방정식을 따른다고 가정한다.
+Black-Scholes 모델에서는 기초자산 가격 $ S_t $가 다음 확률미분방정식을 따른다고 가정한다.
 
 $$
 dS_t = \mu S_t dt + \sigma S_t dW_t
 $$
 
-여기서 $$ \mu $$는 기대수익률, $$ \sigma $$는 변동성, $$ W_t $$는 브라운 운동이다.
+여기서 $ \mu $는 기대수익률, $ \sigma $는 변동성, $ W_t $는 브라운 운동이다.
 
 ## 핵심 아이디어
 
