@@ -1,6 +1,6 @@
 ---
 title: "파생상품 모델링 정리 1: Black-Scholes 모델"
-date: 2026-06-13 10:10:00 +0900
+date: 2026-06-12 10:10:00 +0900
 categories: ["금융수학", "파생상품 모델링"]
 tags: ["파생상품", "Black-Scholes", "옵션"]
 math: true
