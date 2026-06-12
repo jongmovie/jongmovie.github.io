@@ -1,6 +1,6 @@
 ---
 title: "수치해석 정리 1: 유한차분법"
-date: 2026-06-13 10:30:00 +0900
+date: 2026-06-12 10:30:00 +0900
 categories: ["수치해석", "유한차분법"]
 tags: ["수치해석", "finite-difference", "PDE"]
 math: true
