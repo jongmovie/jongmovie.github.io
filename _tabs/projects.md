@@ -8,7 +8,7 @@ order: 3
 ## Papers
 
 - **논문 제목 입력**
-  - [PDF]({{ '/assets/pdf/DB 경계조건에 따른 옵션 가치 평가.pdf' | relative_url }})
+  - [PDF]({{ 'assets/ pdf/dbpaper.pdf' | relative_url }})
 
 ## Research Projects
 
