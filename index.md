@@ -3,25 +3,15 @@ layout: page
 title: 이종민의 공부 노트
 ---
 
-금융수학, 수치해석, 과학계산을 공부하고 있습니다.  
-옵션가격결정, 확률미적분, 편미분방정식, Monte Carlo 방법에 관심이 있습니다.
+## Education
 
-## 학력
+- B.S. in Mathematics and Economics (Double Major), Kyungpook National University
+- M.S. Student in Numerical Analysis, Department of Mathematics, Kyungpook National University
 
-- 경북대학교 ○○학과 재학
-- 금융공학, 수치해석, 확률과정 중심으로 공부
+## Research Interests
 
-## 관심사
-
-- Black-Scholes 모델
-- 유한차분법과 PDE
-- Monte Carlo 시뮬레이션
-- C++, CUDA, Python을 이용한 과학계산
-
-## 공부 분야
-
-- 금융수학
-- 수치해석
-- 확률미적분
-- 파생상품 모델링
-- 고성능 계산
+- Financial Mathematics
+- Numerical Analysis
+- Scientific Computing
+- Derivatives Modeling
+- C++ / CUDA
