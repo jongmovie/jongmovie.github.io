@@ -29,9 +29,10 @@ import matplotlib.pyplot as plt
 def f(x):
     return x**2 - 2
 
-def bisection_method(a, b, tol):
+# Bisection Method
+def Bisection_Method(a, b, tol):
     if f(a) * f(b) >= 0:
-        print("이분법을 적용할 수 없습니다.")
+        print("Bisection method cannot be applied.")
         return None
 
     steps = []
@@ -49,9 +50,33 @@ def bisection_method(a, b, tol):
 
     return (a + b) / 2.0, steps
 
-root, steps = bisection_method(0, 2, 0.0001)
+root, steps = Bisection_Method(0, 2, 0.0001)
+print(f"Approximate root by bisection method: {root}")
 
-print(f"이분법으로 구한 해: {root}")
+# Plot
+x = np.linspace(0, 2, 400)
+y = f(x)
+
+plt.figure(figsize=(8, 5))
+plt.plot(x, y, label="Function $f(x)=x^2-2$", color="blue")
+plt.axhline(0, color="black", linewidth=0.8)
+plt.axvline(root, color="red", linestyle="--", label=f"Approximate root = {root:.5f}")
+
+# Visualize midpoints calculated by the bisection method
+for m in steps:
+    plt.plot(m, f(m), "ro", markersize=4)
+
+# Graph settings
+plt.title("Finding a Root Using the Bisection Method")
+plt.xlabel("x")
+plt.ylabel("f(x)")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+
+# Save and show
+plt.savefig("bisection_method_graph.png")
+plt.show()
 ```
 
 # 실행 결과
