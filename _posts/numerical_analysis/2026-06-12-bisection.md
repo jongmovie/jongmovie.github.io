@@ -80,7 +80,7 @@ plt.show()
 ```
 
 # 실행 결과
-
+![Bisection Method Graph](/assets/images/Bisection_method.png)
 ```text
 이분법으로 구한 해: 1.4141845703125
 ```
