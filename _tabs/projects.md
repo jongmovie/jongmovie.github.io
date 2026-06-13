@@ -8,16 +8,11 @@ order: 3
 ## Papers
 
 - **논문 제목 입력**
-  - [PDF]({{ '/assets/pdf/my-paper.pdf' | relative_url }})
+  - [PDF]({{ '/assets/pdf/DB 경계조건에 따른 옵션 가치 평가.pdf' | relative_url }})
 
 ## Research Projects
 
-### 프로젝트 제목 입력
-
-간단한 설명을 여기에 작성합니다.
-
-- Topic: Financial Mathematics, Numerical Analysis
-- Tools: Python, C++, CUDA
-- Result: 간단한 연구 결과 요약
-
-[PDF]({{ '/assets/pdf/my-project.pdf' | relative_url }})
+- **프로젝트 제목 입력**
+  - Description: 연구 내용 간단히 작성
+  - Tools: Python, C++, CUDA
+  - [PDF]({{ '/assets/pdf/black-scholes-report.pdf' | relative_url }})
