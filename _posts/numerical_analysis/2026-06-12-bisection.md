@@ -51,7 +51,9 @@ def Bisection_Method(a, b, tol):
     return (a + b) / 2.0, steps
 
 root, steps = Bisection_Method(0, 2, 0.0001)
+
 print(f"Approximate root by bisection method: {root}")
+print(f"Number of iterations: {len(steps)}")
 
 # Plot
 x = np.linspace(0, 2, 400)
@@ -82,5 +84,6 @@ plt.show()
 # 실행 결과
 ![Bisection Method Graph](/assets/images/Bisection_method.png)
 ```text
-이분법으로 구한 해: 1.4141845703125
+Approximate root by bisection method: 1.41424560546875
+Number of iterations: 14
 ```
