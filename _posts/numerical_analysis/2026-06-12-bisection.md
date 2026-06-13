@@ -1,7 +1,7 @@
 ---
 title: "비선형 방정식의 해법 1: 이분법(Bisection Method)"
 date: 2026-06-12 10:30:00 +0900
-categories: ["수치해석", "비성형 방정식의 해법"]
+categories: ["수치해석", "비선형 방정식의 해법"]
 tags: ["수치해석", "비선형방정식", "이분법"]
 math: true
 ---
@@ -18,3 +18,43 @@ math: true
    $f(a)f(c)<0$ 이면 해는 구간 $[a,c]$에 있다.
    그렇지 않으면 해는 $[c,b]$에 있다.
 4. 원하는 오차범위에 도달할 때까지 이 과정을 반복한다.
+
+# 파이썬 코드
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def f(x):
+    return x**2 - 2
+
+def bisection_method(a, b, tol):
+    if f(a) * f(b) >= 0:
+        print("이분법을 적용할 수 없습니다.")
+        return None
+
+    steps = []
+
+    while (b - a) / 2.0 > tol:
+        midpoint = (a + b) / 2.0
+        steps.append(midpoint)
+
+        if f(midpoint) == 0:
+            return midpoint, steps
+        elif f(a) * f(midpoint) < 0:
+            b = midpoint
+        else:
+            a = midpoint
+
+    return (a + b) / 2.0, steps
+
+root, steps = bisection_method(0, 2, 0.0001)
+
+print(f"이분법으로 구한 해: {root}")
+```
+
+# 실행 결과
+
+```text
+이분법으로 구한 해: 1.4141845703125
+```
