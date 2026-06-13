@@ -3,6 +3,7 @@ title: "비선형 방정식의 해법 1: 이분법(Bisection Method)"
 date: 2026-06-12 10:30:00 +0900
 categories: ["수치해석", "비선형 방정식의 해법"]
 tags: ["수치해석", "비선형방정식", "이분법"]
+order: 1
 math: true
 ---
 
