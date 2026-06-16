@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 이종민의 공부 노트
 ---
 
 <h2>Education</h2>
