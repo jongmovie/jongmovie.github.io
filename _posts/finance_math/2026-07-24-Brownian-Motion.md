@@ -51,16 +51,17 @@ $$
 
 브라운 운동은 마코브 과정과 마팅게일 과정을 만족한다.
 
-우선 $B_{t+s}-B_s$는 과거와는 독립적이기에 브라운 운동은 마코브 과정이다. 또한, 모든 $0\leq s<t$에 대하여
-\[
+우선 $B_{t+s}-B_s$는 과거와는 독립적이기에 브라운 운동은 마코브 과정이다. 
+또한, 모든 $0\leq s<t$에 대하여
+
+$$
 \begin{aligned}
-E[B_t \mid \mathcal{F}_s]
-&= E[(B_t-B_s)+B_s \mid \mathcal{F}_s] \\
-&= E[(B_t-B_s) \mid \mathcal{F}_s]
- + E[B_s \mid \mathcal{F}_s] \\
-&= B_s
+&E[B_t\mid\mathcal{F}_s]
+=E[(B_{t}-B_s)+B_{s}|\mathcal{F}_s]\\
+&=E[(B_{t}-B_s)|\mathcal{F}_s]+E[B_s|\mathcal{F}_s]=B_s 
 \end{aligned}
-\]
+$$
+
 가 성립하므로 브라운 운동은 마팅게일 과정이다.
 
 다음으로 브라운 운동이 가지는 몇 가지 성질을 살펴보자.
