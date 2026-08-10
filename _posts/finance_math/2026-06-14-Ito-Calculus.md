@@ -1,5 +1,5 @@
 ---
-title: "금융 수학 3: 이토 적분(Ito Calculus)"
+title: "금융수학 3: 이토 적분(Ito Calculus)"
 date: 2026-06-14 10:20:00 +0900
 categories: ["금융수학 및 파생상품 모델", "금융수학"]
 order: 3
