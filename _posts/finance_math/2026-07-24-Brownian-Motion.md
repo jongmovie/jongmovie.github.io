@@ -1,8 +1,9 @@
 ---
-title: "금융수학 1: 브라운 운동(Brownian Motion)"
+title: "금융수학 2: 브라운 운동(Brownian Motion)"
 date: 2026-06-13 10:00:00 +0900
 categories: ["금융수학 및 파생상품 모델", "금융수학"]
 tags: ["금융수학","브라운 운동"]
+order: 2
 math: true
 ---
 
