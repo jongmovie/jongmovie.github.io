@@ -29,7 +29,7 @@ math: true
 > 닫힌구간 $[a,b]$를 균등하게 $n$등분하여 다음과 같이 정의하자.
 
 $$
-a=t\_0<t\_1<\cdots<t\_n=b,\qquad \Delta t=t\_k-t\_{k-1},\qquad \Delta B\_k=B\_{t\_k}-B\_{t\_{k-1}}
+a=t_0<t_1<\cdots<t_n=b,\qquad \Delta t=t_k-t\_{k-1},\qquad \Delta B_k=B_{t\_k}-B_{t\_{k-1}}
 $$
 
 다음과 같은 확률변수 $X\_n$을 정의한다.
